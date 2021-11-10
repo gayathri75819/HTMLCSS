@@ -57,7 +57,9 @@ height: 100%;
     flex-basis: 20%;
 
 }
-
+.abc1 ,.abc{
+    list-style-type: none;
+}
 .section:nth-child(2){
     flex-grow: 4;
 }
@@ -82,4 +84,10 @@ height: 100%;
     margin-left: 1%;
     overflow: hidden;
     border-radius: 5px;
+}
+.footer{
+    border:1px solid black;
+    
+    margin:10px;
+    height:150px;
 }
