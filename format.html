@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css" rel="stylesheet">
+        ​
+
+        /* START CSS */
+        .container {
+            display: flex;
+            background: #333;
+            border: 1px solid black;
+            flex-direction: row;
+            padding: 10px;
+            height: 390px;
+            flex-flow: row wrap;
+            justify-content: start;
+            align-items: flex-start;
+        }
+
+        .item {
+            flex-basis: 30%;
+            margin: 10px;
+        }
+
+        .head1 {
+            margin-left: 22px;
+            text-decoration: underline;
+        }
+
+        ​
+        /* .item:nth-child(2){
+            flex-grow: 5;
+            flex-shrink: 0;
+            /* order: -1; */
+        /* } */
+        ​
+        /* END CSS */
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="item">
+            <div class="head1">
+                <h1>LIST-1</h1>
+            </div>
+            <div class="List1">
+                <ul style="list-style-type: square;">
+                    <li>Monday</li>
+                    <li>Tuesday</li>
+                    <li>Wednesday</li>
+                    <li>Thursday</li>
+                    <li>Friday</li>
+                    <li>Saturday</li>
+                    <li>Sunday</li>
+                </ul>
+            </div>
+        </div>
+        <div class="item">
+            <div class="head1">
+                <h1>LIST-2</h1>
+            </div>
+            <div class="List2">
+                <ol style="list-style-type: lower-roman;">
+                    <li>January</li>
+                    <li>February</li>
+                    <li>March</li>
+                    <li>April</li>
+                    <li>May</li>
+                    <li>June</li>
+                    <li>July</li>
+                    <li>August</li>
+                    <li>September</li>
+                    <li>October</li>
+                    <li>November</li>
+                    <li>December</li>
+                </ol>
+            </div>
+        </div>
+        <div class="item">
+            <div class="head1">
+                <h1>LIST-3</h1>
+            </div>
+            <div class="List3">
+                <dl>
+                    <dt>Spring</dt>
+                    <dd>March, April and May</dd>
+                    <dt>Summer</dt>
+                    <dd>June, July and August</dd>
+                    <dt>Winter</dt>
+                    <dd>December, January and February</dd>
+                    <dt>Autumn</dt>
+                    <dd>September, October and November</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    ​
+    ​
+</body>
+
+</html>
