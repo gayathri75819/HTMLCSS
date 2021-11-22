@@ -14,7 +14,7 @@ height: 100%;
     flex-direction: row;
     border: 2px solid black;
     width: 100%;
-    height: 400px;
+    height: 430px;
     background-color: #F2F2F2;
 }
 
@@ -29,7 +29,7 @@ height: 100%;
 .button1 button{
     width:20%;
     height:35px;
-    background-color:black;
+    background-color:rgb(35, 35, 209);
     border-radius:5px;
 }
 
@@ -53,7 +53,7 @@ height: 100%;
 .below-part{
     border: 2px solid black;
     width: 100%;
-    height: 500px;
+    height: 430px;
     margin-top: 10px;
 }
 
@@ -72,7 +72,7 @@ height: 100%;
 .btn button{
     width:10%;
     height:35px;
-    background-color:black;
+    background-color:rgb(35, 35, 209);
     border-radius:5px;
 }
 .second-container .button2{
@@ -88,6 +88,6 @@ height: 100%;
     
 }
 .third-container .right iframe{
-    width:35%;
-    height:260px;
+    width:30%;
+    height:200px;
 }
